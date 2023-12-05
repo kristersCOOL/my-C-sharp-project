@@ -19,8 +19,6 @@ class Program
       
       Console.WriteLine("wanna exit?");
         
-        while (true)
-        {
             // Display options
             Console.WriteLine("no");
             Console.WriteLine("exit")
@@ -34,7 +32,7 @@ class Program
                 case "1":
                     Console.WriteLine("ok");
                     
-                    Console.Write.Line("but i can't stay that long i have other stuff to do like update, so bye")
+                    Console.Write.Line("but i can't stay that long i have other stuff to do like update, so bye");
                     return;
 
                 case "2":

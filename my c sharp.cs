@@ -19,9 +19,12 @@ class Program
       
       Console.WriteLine("wanna exit?");
         
+        bool exit = false;
+
+        while (!exit) {
             // Display options
-            Console.WriteLine("no");
-            Console.WriteLine("exit")
+            Console.WriteLine("1. no");
+            Console.WriteLine("2. exit")
 
             // Get user input
             string choice = Console.ReadLine();
@@ -37,6 +40,8 @@ class Program
 
                 case "2":
                     Console.WriteLine("ok then exit, goodbye!");
+                    exit = true;
                     return;
-    }
+            }
+        }
 }
